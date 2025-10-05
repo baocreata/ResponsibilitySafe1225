@@ -1,10 +1,9 @@
-#!name=All In One
-#!desc=Được tổng hợp bởi Đinh Duy Vinh
-#!author=duyvinh09
-#!tgchannel=https://t.me/tienich
-#!moduleUrl=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/All_In_One.sgmodule
+#!name=Alight Motion
+#!desc=This is only used to prevent malicious MITM attack
+#!author=baocreata
+#!moduleUrl=https://raw.githubusercontent.com/baocreata/ResponsibilitySafe1225/refs/heads/main/AlightMotion.sgmodule
 #!howtouse=Shadowrocket
-#Shadowrocket Configuration - All IN ONE
+#Shadowrocket Configuration - Alight Motion PRO
 
 #AlightMotion
 #hostname = us-central1-alight-creative.cloudfunctions.net
@@ -12,4 +11,5 @@ AlightMotion = type=http-response,script-path=https://raw.githubusercontent.com/
 #************************************#
 
 [MITM]
+
 hostname = us-central1-alight-creative.cloudfunctions.net
