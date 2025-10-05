@@ -7,9 +7,10 @@
 
 #AlightMotion
 #hostname = us-central1-alight-creative.cloudfunctions.net
-AlightMotion = type=http-response,script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/AlightMotion.js,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=10,enable=true
+AlightMotion = type=http-response,script-path=https://raw.githubusercontent.com/baocreata/ResponsibilitySafe1225/refs/heads/main/js/AlightMotion.js,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=10,enable=true
 #************************************#
 
 [MITM]
 
 hostname = us-central1-alight-creative.cloudfunctions.net
+
